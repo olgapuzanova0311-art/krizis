@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Заработай на ИИ — интенсив ИИшницы</title>
+<meta name="description" content="Заработай первые 100–200к на ИИ за 48 часов интенсива. Без вложений, только знания.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="intensive-landing">
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-content">
+      <div class="logo">
+        <span class="logo-icon">🧠</span>
+        <span class="logo-text">ИИшница</span>
+      </div>
+      <div class="header-timer">
+        <span class="timer-label">Начало:</span>
+        <span class="timer-value" id="header-timer-value">00д 00:00:00</span>
+      </div>
+      <button class="header-cta" onclick="document.querySelector('.registration-form').scrollIntoView({behavior:'smooth'})">
+        Зарегистрироваться
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg-element hero-bg-1" id="hero-bg-1"></div>
+    <div class="hero-bg-element hero-bg-2" id="hero-bg-2"></div>
+
+    <div class="hero-content">
+      <h1 class="hero-title">Заработай первые 100–200к на ИИ за 48 часов интенсива</h1>
+      <p class="hero-subtitle">Без вложений, только знания: как монетизировать ИИ-навыки прямо сейчас</p>
+
+      <div class="hero-timer">
+        <div class="timer-badge">
+          <span class="timer-label-large">⏰ Начало:</span>
+          <div class="timer-grid">
+            <div class="timer-unit">
+              <div class="timer-number" id="t-days">00</div>
+              <div class="timer-unit-label">дней</div>
+            </div>
+            <span class="timer-separator">:</span>
+            <div class="timer-unit">
+              <div class="timer-number" id="t-hours">00</div>
+              <div class="timer-unit-label">часов</div>
+            </div>
+            <span class="timer-separator">:</span>
+            <div class="timer-unit">
+              <div class="timer-number" id="t-minutes">00</div>
+              <div class="timer-unit-label">минут</div>
+            </div>
+            <span class="timer-separator">:</span>
+            <div class="timer-unit">
+              <div class="timer-number" id="t-seconds">00</div>
+              <div class="timer-unit-label">секунд</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="hero-cta" onclick="document.querySelector('.registration-form').scrollIntoView({behavior:'smooth'})">
+        Зарегистрироваться
+      </button>
+      <p class="hero-footnote">Осталось мест ограничено</p>
+    </div>
+  </section>
+
+  <!-- LIVE COUNTER -->
+  <section class="live-counter-section">
+    <div class="live-counter-content">
+      <p class="live-counter-label">Уже регистрируются</p>
+      <div class="live-counter-display">
+        <span class="live-counter-number" id="live-counter">247</span>
+        <span class="live-counter-text">участников из разных стран</span>
+      </div>
+      <div class="participant-avatars">
+        <div class="avatar" style="animation-delay:0s">A</div>
+        <div class="avatar" style="animation-delay:0.1s">B</div>
+        <div class="avatar" style="animation-delay:0.2s">C</div>
+        <div class="avatar" style="animation-delay:0.3s">D</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUE PROPOSITION -->
+  <section class="value-proposition">
+    <h2 class="section-title">Почему именно этот интенсив?</h2>
+    <div class="values-list">
+      <div class="value-item" style="animation-delay:0s">
+        <span class="value-icon">✓</span>
+        <span class="value-text">Не «волшебная пуля» — это реальные инструменты и стратегии</span>
+      </div>
+      <div class="value-item" style="animation-delay:0.15s">
+        <span class="value-icon">✓</span>
+        <span class="value-text">Микс: от новичков (разберём ChatGPT) до опытных (вайбкодинг)</span>
+      </div>
+      <div class="value-item" style="animation-delay:0.3s">
+        <span class="value-icon">✓</span>
+        <span class="value-text">Живые примеры монетизации (не теория)</span>
+      </div>
+      <div class="value-item" style="animation-delay:0.45s">
+        <span class="value-icon">✓</span>
+        <span class="value-text">Доступ к чату селлеров + материалы после интенсива</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAM -->
+  <section class="program-section">
+    <h2 class="section-title">Программа интенсива</h2>
+    <div class="program-grid">
+
+      <div class="program-column">
+        <h3 class="day-title">День 1</h3>
+        <p class="day-subtitle">15 августа, 16:00–19:30 (3.5 часа)</p>
+        <div class="blocks-list">
+          <div class="program-block" style="animation-delay:0s">
+            <h4 class="block-title">Вайбкодинг как стратегия</h4>
+            <ul class="block-points">
+              <li>Что такое вайбкодинг на маркетплейсах?</li>
+              <li>Как твои навыки = деньги?</li>
+              <li>Live-пример: учитель → куратор WB → ₽50к/мес</li>
+            </ul>
+          </div>
+          <div class="program-block" style="animation-delay:0.1s">
+            <h4 class="block-title">Инструменты ИИ для монетизации</h4>
+            <ul class="block-points">
+              <li>ChatGPT/Claude/Gemini: кто для чего?</li>
+              <li>Промптинг как навык</li>
+              <li>Автоматизация: Google Apps Script, Make, Zapier</li>
+            </ul>
+          </div>
+          <div class="program-block" style="animation-delay:0.2s">
+            <h4 class="block-title">Первый шаг: микро-нишевые сервисы</h4>
+            <ul class="block-points">
+              <li>Фриланс на Fiverr с ИИ (прямо с нуля)</li>
+              <li>Контент-агентства (текст/графика)</li>
+              <li>Курсы на GetCourse с минимум вложений</li>
+            </ul>
+          </div>
+          <div class="program-block" style="animation-delay:0.3s">
+            <h4 class="block-title">Психология и постинг</h4>
+            <ul class="block-points">
+              <li>Зачем и как работает personal brand</li>
+              <li>TG-канал как канал продаж</li>
+              <li>Виральность и «читаемость» контента</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="program-column">
+        <h3 class="day-title">День 2</h3>
+        <p class="day-subtitle">16 августа, 16:00–19:30 (3.5 часа)</p>
+        <div class="blocks-list">
+          <div class="program-block" style="animation-delay:0s">
+            <h4 class="block-title">От вайбкодинга к системе</h4>
+            <ul class="block-points">
+              <li>Как переходить от одноразовых заказов к офферу?</li>
+              <li>Оффлайн-интенсивы как cashcow</li>
+              <li>Продюсер + менторское сообщество</li>
+            </ul>
+          </div>
+          <div class="program-block" style="animation-delay:0.1s">
+            <h4 class="block-title">ИИ-инструменты для масштабирования</h4>
+            <ul class="block-points">
+              <li>Автоматизированный аутреч (Telegram, Email)</li>
+              <li>Генерация контента в 10x раз быстрее</li>
+              <li>Dashboard и аналитика (Google Sheets + API)</li>
+            </ul>
+          </div>
+          <div class="program-block" style="animation-delay:0.2s">
+            <h4 class="block-title">Юридика и деньги</h4>
+            <ul class="block-points">
+              <li>ИП vs LLC vs ООО (что проще?)</li>
+              <li>Налоги на первые 100–200к</li>
+              <li>Счета и платёжные системы (Stripe, Wise)</li>
+            </ul>
+          </div>
+          <div class="program-block" style="animation-delay:0.3s">
+            <h4 class="block-title">Живые кейсы участников</h4>
+            <ul class="block-points">
+              <li>Разбор реальных сценариев</li>
+              <li>Q&A со мной и гостями</li>
+              <li>Roadmap на первый месяц (твой персональный)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="program-column program-column-bonus">
+        <h3 class="day-title">Бонус</h3>
+        <p class="day-subtitle">Материалы на 3 месяца</p>
+        <div class="bonus-list">
+          <div class="bonus-item" style="animation-delay:0s">📹 Записи всех 2 дней в HD (с субтитрами)</div>
+          <div class="bonus-item" style="animation-delay:0.1s">📊 Шаблоны Google Sheets (дашборды, аналитика)</div>
+          <div class="bonus-item" style="animation-delay:0.2s">📝 Чек-листы и темплейты для аутрича</div>
+          <div class="bonus-item" style="animation-delay:0.3s">💬 Доступ в приватный чат селлеров (TG)</div>
+          <div class="bonus-item" style="animation-delay:0.4s">🎁 Промокод на курс «Навык остался» (-50%)</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SOCIAL PROOF -->
+  <section class="social-proof">
+    <h2 class="section-title">Реальные результаты участников</h2>
+    <div class="cases-grid">
+      <div class="case-card" style="animation-delay:0s">
+        <div class="case-avatar">О</div>
+        <h4 class="case-name">Ольга П.</h4>
+        <p class="case-result">Первые 150к за 3 недели</p>
+        <p class="case-desc">Начала с фриланса на Fiverr (AI writing), за месяц перешла на собственные курсы. Сейчас кураторствует 5 учеников.</p>
+      </div>
+      <div class="case-card" style="animation-delay:0.15s">
+        <div class="case-avatar">М</div>
+        <h4 class="case-name">Максим К.</h4>
+        <p class="case-result">100к за первый месяц, теперь 500к/мес</p>
+        <p class="case-desc">Был менеджером WB, выбрал вайбкодинг. Теперь преподаёт другим. Дополнительно запустил AI-аутреч сервис.</p>
+      </div>
+      <div class="case-card" style="animation-delay:0.3s">
+        <div class="case-avatar">Д</div>
+        <h4 class="case-name">Даша М.</h4>
+        <p class="case-result">Мини-интенсив одному клиенту: 50к за выходные</p>
+        <p class="case-desc">Не было опыта, но знала Notion и писала хорошо. Комбинировала ИИ + свой стиль = 15 человек в курсе.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq-section">
+    <h2 class="section-title">Часто спрашивают</h2>
+    <div class="faq-list" id="faq-list"></div>
+  </section>
+
+  <!-- REGISTRATION FORM -->
+  <section class="registration-form">
+    <div class="form-wrapper" id="form-wrapper">
+      <h2>Зарегистрироваться за 20 секунд</h2>
+      <p class="form-subtitle">Пришлём ссылку на Telegram-канал и материалы перед интенсивом</p>
+
+      <form id="reg-form">
+        <div class="form-group">
+          <input type="email" placeholder="ты@example.com" required class="form-input" id="reg-email">
+        </div>
+
+        <div class="form-group checkbox">
+          <input type="checkbox" id="terms" checked required>
+          <label for="terms">Я согласен с обработкой персональных данных в соответствии с 152-ФЗ</label>
+        </div>
+
+        <div class="form-group checkbox">
+          <input type="checkbox" id="newsletter" checked>
+          <label for="newsletter">Хочу получать обновления про будущие интенсивы и курсы</label>
+        </div>
+
+        <button type="submit" class="form-cta" id="reg-submit">Зарегистрироваться</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <span class="logo-icon">🧠</span>
+        <span class="logo-text">ИИшница</span>
+      </div>
+      <div class="footer-links">
+        <a href="#courses">Мои курсы</a>
+        <a href="https://t.me/iishnisa" target="_blank" rel="noopener noreferrer">TG-канал</a>
+        <a href="#contacts">Контакты</a>
+      </div>
+      <p class="footer-copyright">© 2026 ИИшница. Все права защищены.</p>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+// ============================================================================
+// COUNTDOWN TIMER
+// ============================================================================
+const TARGET_DATE = new Date('2026-08-15T16:00:00').getTime();
+
+function updateCountdown() {
+  const now = new Date().getTime();
+  const diff = TARGET_DATE - now;
+  if (diff <= 0) return;
+
+  const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+  const minutes = Math.floor((diff / 1000 / 60) % 60);
+  const seconds = Math.floor((diff / 1000) % 60);
+
+  const pad = n => String(n).padStart(2, '0');
+
+  document.getElementById('t-days').textContent = pad(days);
+  document.getElementById('t-hours').textContent = pad(hours);
+  document.getElementById('t-minutes').textContent = pad(minutes);
+  document.getElementById('t-seconds').textContent = pad(seconds);
+
+  document.getElementById('header-timer-value').textContent =
+    `${days}д ${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
+}
+updateCountdown();
+setInterval(updateCountdown, 1000);
+
+// ============================================================================
+// PARALLAX HERO BACKGROUND
+// ============================================================================
+const heroBg1 = document.getElementById('hero-bg-1');
+const heroBg2 = document.getElementById('hero-bg-2');
+window.addEventListener('scroll', () => {
+  const offset = window.scrollY * 0.5;
+  heroBg1.style.transform = `translateY(${offset * 0.3}px)`;
+  heroBg2.style.transform = `translateY(${offset * 0.5}px)`;
+});
+
+// ============================================================================
+// SCROLL-TRIGGERED ANIMATIONS
+// ============================================================================
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('animate-in');
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll(
+  '.value-item, .program-block, .bonus-item, .case-card, .faq-item, .program-column'
+).forEach(el => observer.observe(el));
+
+// ============================================================================
+// LIVE PARTICIPANT COUNTER
+// ============================================================================
+const liveCounterEl = document.getElementById('live-counter');
+let participants = 247;
+setInterval(() => {
+  if (Math.random() > 0.7) {
+    participants += 1;
+    liveCounterEl.textContent = participants;
+  }
+}, 5000);
+
+// ============================================================================
+// FAQ ACCORDION
+// ============================================================================
+const faqs = [
+  {
+    q: 'Нужна ли мне своя ниша или студия?',
+    a: 'Нет. Даже с 0 опыта можно начать с фриланса или минимум-курса. Ниша может появиться позже, когда поймёшь, что нравится.'
+  },
+  {
+    q: 'Какой уровень ИИ-знаний нужен?',
+    a: 'Никакой. Разберём ChatGPT с нуля. Если уже юзаешь — научимся юзить лучше.'
+  },
+  {
+    q: 'Это не очередной «заработай за 3 дня» курс?',
+    a: 'Нет. Это реальная система, которая работает, но требует работы. За 2 дня дадим инструменты, после интенсива ты собираешь своё.'
+  },
+  {
+    q: 'Можно ли участвовать, если я занят?',
+    a: 'Да — в чате будут записи, и материалы остаются на 3 месяца. Можешь смотреть в своём темпе.'
+  },
+  {
+    q: 'А если я уже копаюсь в ИИ?',
+    a: 'Ещё лучше. День 2 про масштабирование — точно будет что-то полезное. И live-кейсы помогут увидеть слепые пятна.'
+  }
+];
+
+const faqList = document.getElementById('faq-list');
+faqs.forEach((faq, i) => {
+  const item = document.createElement('div');
+  item.className = 'faq-item';
+
+  const btn = document.createElement('button');
+  btn.className = 'faq-question';
+  btn.innerHTML = `<span>${faq.q}</span><span class="faq-arrow">▼</span>`;
+
+  const answer = document.createElement('div');
+  answer.className = 'faq-answer';
+  answer.textContent = faq.a;
+  answer.style.display = 'none';
+
+  btn.addEventListener('click', () => {
+    const isOpen = answer.style.display === 'block';
+    document.querySelectorAll('.faq-answer').forEach(a => a.style.display = 'none');
+    document.querySelectorAll('.faq-arrow').forEach(a => a.classList.remove('open'));
+    if (!isOpen) {
+      answer.style.display = 'block';
+      btn.querySelector('.faq-arrow').classList.add('open');
+    }
+  });
+
+  item.appendChild(btn);
+  item.appendChild(answer);
+  faqList.appendChild(item);
+  observer.observe(item);
+});
+
+// ============================================================================
+// REGISTRATION FORM
+// ============================================================================
+const regForm = document.getElementById('reg-form');
+const formWrapper = document.getElementById('form-wrapper');
+const submitBtn = document.getElementById('reg-submit');
+
+regForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const email = document.getElementById('reg-email').value;
+  submitBtn.disabled = true;
+  submitBtn.textContent = 'Регистрирую...';
+
+  // Здесь можно подключить реальный backend (Firebase/Supabase/собственный API)
+  // fetch('/api/register', { method: 'POST', body: JSON.stringify({ email }) })
+  console.log('Email submitted:', email);
+
+  setTimeout(() => {
+    formWrapper.innerHTML = `
+      <div class="thank-you-screen">
+        <h2>Спасибо! Проверь Telegram 👋</h2>
+        <p>Если ещё не в канале — вот прямая ссылка:</p>
+        <a href="https://t.me/iishnisa" target="_blank" rel="noopener noreferrer" class="form-cta">Перейти в канал ИИшницы</a>
+        <p class="thank-you-footnote">Материалы придут в течение 5 минут</p>
+      </div>
+    `;
+  }, 800);
+});
+</script>
+</body>
+</html>
